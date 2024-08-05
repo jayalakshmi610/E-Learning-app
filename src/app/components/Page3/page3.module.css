@@ -1,0 +1,110 @@
+/* Styling for the heromain section */
+.heromain {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Distribute items evenly along the horizontal axis */
+  padding: 2rem 12rem; /* Add padding to the heromain section */
+  width: 100vw; /* Set the width to 100% of the viewport width */
+  background: var(--Primaty-Grey-Light, #f6f5f4); /* Background color */
+}
+
+/* Styling for the hero_content section */
+.hero_content {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange items in a column */
+  justify-content: space-evenly; /* Distribute items evenly along the vertical axis */
+  width: 580px; /* Set a specific width for the hero_content */
+  height: 450px; /* Set a specific height for the hero_content */
+  padding: 1rem; /* Add padding to the hero_content */
+}
+
+/* Styling for h4 within hero_content */
+.hero_content h3 {
+  color: var(--Primaty-Cyan-Atc); /* Set text color for h4 */
+}
+
+/* Styling for h1 within hero_content */
+.hero_content h1 {
+  font-size: 2.9rem; /* Set font size for h1 */
+  width: 400px; /* Set width */
+}
+
+/* Styling for p within hero_content */
+.hero_content p {
+  font-size: 18px; /* Set font size for p */
+  font-style: normal; /* Set normal font style */
+  font-weight: 600; /* Set font weight */
+  color: var(--Primaty-Grey-Dark); /* Set text color for p */
+  letter-spacing: -0.72px; /* Adjust letter-spacing */
+}
+
+/* Styling for the picbox2 section */
+.picbox2 {
+  width: 580px; /* Set width */
+  height: 450px; /* Set height */
+  margin: 0px; /* Reset margin */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  background-color: #f6f5f4; /* Background color */
+}
+
+/* Styling for images within picbox2 */
+.picbox2 img {
+  width: auto; /* Set width to auto */
+}
+
+/* Styling for the main-btn section */
+.main-btn {
+  background-color: #c3dce3; /* Background color */
+  border-radius: 100px; /* Set border radius */
+  margin-left: 32px; /* Set left margin */
+  padding: 20px; /* Set padding */
+  border: none; /* Remove border */
+  color: #2b788b; /* Text color */
+  font-family: Montserrat; /* Font family */
+  font-size: 25px; /* Font size */
+  font-style: normal; /* Font style */
+  font-weight: 700; /* Font weight */
+  line-height: 100%; /* Line height */
+  letter-spacing: -0.64px; /* Adjust letter-spacing */
+  display: flex; /* Use flexbox for layout */
+}
+
+/* Styling for the svg section */
+.svg {
+  background: var(--Primaty-Cyan-Light, #c3dce3); /* Background color */
+  margin-left: -15px; /* Set left margin */
+  font-weight: bold; /* Set font weight */
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .heromain {
+    width: clamp(400px, 50%, 600px); /* Set width between 400px and 600px */
+    height: clamp(600px, 75%, 900px); /* Set height between 600px and 900px */
+    display: block; /* Change display to block */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    margin: 0px; /* Reset margin */
+    padding: 10px; /* Reset padding */
+  }
+
+  .hero_content {
+    width: clamp(550px, 50%, 600px); /* Set width between 400px and 600px */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items horizontally */
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .hero_content h1 {
+    width: clamp(
+      450px,
+      90%,
+      550px
+    ); /* Set width between 400px and 550px, but not less than 90% of the viewport width */
+    text-align: center; /* Center text horizontally */
+  }
+}

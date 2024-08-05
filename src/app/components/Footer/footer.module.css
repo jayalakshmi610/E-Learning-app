@@ -1,0 +1,156 @@
+/* Styles for main container */
+.main {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Distribute items evenly along the horizontal axis */
+  padding: 2rem 12rem; /* Add padding to the main section */
+  width: 100vw; /* Set the width to 100% of the viewport width */
+}
+
+/* Styles for sections */
+.Section {
+  display: block; /* Set sections to display as block elements */
+}
+
+/* Styles for Section1 */
+.Section1 {
+  width: 70vw; /* Set width to 70% of the viewport width */
+  height: 50px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid grey; /* Add a bottom border with a grey color */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Distribute items evenly along the horizontal axis */
+  align-items: center; /* Center items vertically */
+}
+
+/* Styles for Sub_Section1 */
+.Sub_Section1 ul {
+  background-color: #f6f5f4; /* Set background color */
+  width: 100%; /* Set width to 100% */
+  display: flex; /* Use flexbox for layout */
+  gap: 10px; /* Set gap between flex items */
+}
+.Sub_Section1 ul li {
+  list-style: none; /* Remove bullet points from list */
+  color: var(--Primaty-Grey-Dark, #757575); /* Set text color with fallback */
+  font-family: Montserrat; /* Set font family */
+  font-size: 14px; /* Set font size */
+  font-style: normal;
+  font-weight: 600; /* Set font weight */
+  line-height: 100%; /* Set line height */
+}
+.Sub_Section1 ul li a {
+  display: block; /* Make links block elements */
+  text-decoration: none; /* Remove underline from links */
+  padding: 0.5rem; /* Add padding */
+  margin: 0 0.5rem; /* Add margin */
+  border-radius: 0.5rem; /* Add border radius */
+  justify-content: space-evenly; /* Distribute content evenly */
+}
+
+/* Styles for li elements */
+.li {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange items in a column */
+  justify-content: space-between; /* Distribute content evenly */
+}
+
+/* Styles for Sub_Section2 */
+.Sub_Section2 ul {
+  display: flex; /* Use flexbox for layout */
+  gap: 10px; /* Set gap between flex items */
+}
+.Sub_Section2 ul li {
+  list-style: none; /* Remove bullet points from list */
+  color: var(--Primaty-Grey-Dark, #757575); /* Set text color with fallback */
+  font-family: Montserrat; /* Set font family */
+  font-size: 14px; /* Set font size */
+  font-style: normal;
+  font-weight: 600; /* Set font weight */
+}
+
+/* Styles for Section2 */
+.Section2 {
+  width: 100%; /* Set width to 100% */
+  justify-content: space-between; /* Distribute items evenly along the horizontal axis */
+  display: flex; /* Use flexbox for layout */
+}
+
+/* Styles for Sub_Section3 */
+.Sub_Section3 {
+  display: flex; /* Use flexbox for layout */
+  gap: 20px; /* Set gap between flex items */
+}
+
+/* Styles for Sub_Section4 */
+.Sub_Section4 {
+  color: var(--Primaty-Grey-Dark, #757575); /* Set text color with fallback */
+  font-family: Montserrat; /* Set font family */
+  font-size: 12px; /* Set font size */
+  font-style: normal;
+  font-weight: 600; /* Set font weight */
+  line-height: 100%; /* Set line height */
+  display: flex; /* Use flexbox for layout */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .main {
+    background-color: #f6f5f4; /* Set background color */
+    display: flex; /* Use flexbox for layout */
+    margin: 1rem; /* Add left margin */
+    padding: 2rem; /* Add padding */
+  }
+  .Section {
+    background-color: #f6f5f4; /* Set background color */
+    width: 435px; /* Set width */
+    height: 480px; /* Set height */
+    display: block; /* Set display to block */
+  }
+  .Section1 {
+    display: flex; /* Use flexbox for layout */
+    width: 600px; /* Set width */
+    height: 320px; /* Set height */
+    background-color: #f6f5f4; /* Set background color */
+    border-bottom: 1px solid grey; /* Add a bottom border with a grey color */
+    margin: 10px; /* Add margin */
+    padding: 10px; /* Add padding */
+  }
+  .Sub_Section1 ul {
+    display: block; /* Set display to block */
+  }
+  .Sub_Section1 ul li {
+    display: block; /* Set display to block */
+    gap: 30px; /* Set gap between items */
+    padding: 10px; /* Add padding */
+  }
+  .Sub_Section2 ul {
+    display: block; /* Set display to block */
+    gap: 30px; /* Set gap between items */
+    padding: 30px; /* Add padding */
+  }
+  .Sub_Section2 ul li {
+    display: block; /* Set display to block */
+    gap: 30px; /* Set gap between items */
+    padding: 30px; /* Add padding */
+  }
+  .Section2 {
+    display: block; /* Set display to block */
+    width: 400px; /* Set width */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+  }
+  .Sub_Section3 {
+    width: 600px;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    padding: 30px; /* Add padding */
+  }
+  .Sub_Section4 {
+    width: 600px;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+  }
+}

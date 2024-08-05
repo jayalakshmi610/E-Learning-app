@@ -1,0 +1,137 @@
+/* Styles for main container */
+.main {
+  display: flex; /* This property remains unchanged */
+  align-items: center; /* This property remains unchanged */
+  justify-content: space-between; /* This property remains unchanged */
+  padding: clamp(20px, 5vw, 2rem) clamp(20px, 5vw, 2rem); /* Example: minimum padding of 20px, maximum padding of 2rem, preferred padding relative to viewport width */
+  width: clamp(
+    320px,
+    90vw,
+    100vw
+  ); /* Example: minimum width of 320px, maximum width of 100vw, preferred width relative to viewport width */
+}
+
+/* Styling for the heromain section */
+.heromain {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Distribute items evenly along the horizontal axis */
+  margin-left: 6rem; /* Add margin-left to the heromain section */
+  width: 100vw; /* Set the width to 100% of the viewport width */
+}
+
+/* Styling for the hero_content section */
+.hero_content {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange items in a column */
+  justify-content: space-evenly; /* Distribute items evenly along the vertical axis */
+  width: 450px; /* Set a specific width for the hero_content */
+  height: 650px; /* Set a specific height for the hero_content */
+  padding: 0.5rem; /* Add padding to the hero_content */
+}
+
+/* Styling for h4 within hero_content */
+.hero_content h3 {
+  color: var(--Primaty-Cyan-Atc); /* Set text color for h4 */
+}
+
+/* Styling for h1 within hero_content */
+.hero_content h1 {
+  font-size: 3.1rem; /* Set font size for h1 */
+}
+
+/* Styling for p within hero_content */
+.hero_content p {
+  font-size: 18px; /* Set font size for p */
+  font-style: normal; /* Set normal font style */
+  font-weight: 600; /* Set font weight */
+  color: var(--Primaty-Grey-Dark); /* Set text color for p */
+  letter-spacing: -0.72px; /* Adjust letter-spacing */
+}
+
+/* Styling for the Words_games section */
+.Words_games {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Distribute items evenly along the horizontal axis */
+  width: 400px;
+}
+
+/* Styling for the svg element */
+.svg {
+  width: 50px; /* Set a specific width for the svg element */
+  height: 50px; /* Set a specific height for the svg element */
+  padding-right: 5px; /* Add right padding to the svg element */
+}
+
+/* Styling for the words_main section */
+.words_main {
+  width: 220px;
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  flex-direction: column; /* Arrange items in a column */
+}
+
+/* Styling for the p_words section */
+.p_words {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+}
+
+/* Styling for color_tex class */
+.color_tex {
+  color: var(
+    --Primary-Cyan-Atc
+  ); /* Set text color for elements with the color_tex class */
+}
+
+@media (max-width: 768px) {
+  .main {
+    width: 90vw;
+    height: auto;
+    margin-left: 1rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Adjust styles for smaller screens */
+  .heromain {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0rem;
+    padding: 2rem; /* Adjust padding */
+  }
+
+  .hero_content {
+    width: 600px; /* Set width to 600px */
+    height: auto; /* Set height to auto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .hero_content h1 {
+    font-size: 2.5rem; /* Adjust font size */
+  }
+
+  .hero_content p {
+    font-size: 16px; /* Adjust font size */
+  }
+
+  .Words_games {
+    display: flex;
+    align-items: center; /* Center items horizontally */
+    justify-content: center;
+  }
+
+  .svg {
+    width: 30px; /* Adjust width */
+    height: 30px; /* Adjust height */
+  }
+}

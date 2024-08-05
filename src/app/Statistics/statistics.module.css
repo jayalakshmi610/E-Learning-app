@@ -1,0 +1,52 @@
+/* Styling for the main section */
+.main {
+  width: 100vw; /* Set width to 100% of viewport width */
+  height: 100vh; /* Set height to 100% of viewport height */
+}
+
+/* Styling for the Section1 section */
+.Section1 {
+  width: 100%; /* Set width to 100% */
+  height: 500px; /* Set height to 500px */
+  margin-left: 12rem; /* Set left margin */
+  margin-top: 6rem; /* Set top margin */
+}
+
+/* Styling for h3 elements */
+.h3 {
+  color: var(--Primaty-Black, #000); /* Set text color */
+  font-family: "Dela Gothic One"; /* Set font family */
+  font-size: 26px; /* Set font size */
+  font-style: normal; /* Set font style */
+  font-weight: 400; /* Set font weight */
+  line-height: 100%; /* Set line height */
+  letter-spacing: -1.04px; /* Set letter spacing */
+}
+
+/* Styling for the Subsection1 section */
+.Subsection1 {
+  width: 950px; /* Set width to 950px */
+  height: 450px; /* Set height to 450px */
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .main {
+    height: 400px; /* Set height to 400px */
+  }
+  .Section1 {
+    margin-left: 2rem; /* Set left margin */
+  }
+  .img {
+    width: clamp(
+      500px,
+      80%,
+      650px
+    ); /* Set width between 500px and 650px, but not less than 80% of the viewport width */
+    height: clamp(
+      250px,
+      50%,
+      350px
+    ); /* Set height between 250px and 350px, but not less than 50% of the viewport height */
+  }
+}

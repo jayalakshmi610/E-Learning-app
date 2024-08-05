@@ -1,0 +1,1319 @@
+/* Styling for the main section */
+.Main {
+  background-color: #f6f5f4; /* Set background color */
+  width: 100vw; /* Set width to 100% of viewport width */
+  height: 1400px; /* Set height to 1400px */
+}
+
+/* Styling for the header */
+.Header {
+  background-color: #f6f5f4; /* Set background color */
+  width: 930px; /* Set width to 930 pixels */
+  height: 185px; /* Set height to 185 pixels */
+  margin-top: 40px; /* Add margin from the top */
+  margin-left: 12rem; /* Add margin from the left */
+  padding-right: 4rem; /* Add padding from the right */
+}
+
+/* Styling for Section1 */
+.Section1 {
+  background-color: white; /* Set background color */
+  width: 930px; /* Set width to 930 pixels */
+  height: 70px; /* Set height to 70 pixels */
+  display: flex; /* Use flexbox for layout */
+  margin-right: 3rem; /* Add margin from the right */
+}
+
+/* Styling for Subsection1 */
+.Subsection1 {
+  width: 300px; /* Set width to 300 pixels */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Add space between items */
+  margin-left: 30px; /* Add margin from the left */
+  background-color: white; /* Set background color */
+}
+
+/* Styling for h3 elements */
+.h3 {
+  color: var(--Primaty-Black, #000); /* Set text color */
+  font-family: "Dela Gothic One"; /* Set font family */
+  font-size: 26px; /* Set font size to 26 pixels */
+  font-style: normal; /* Set font style to normal */
+  font-weight: 400; /* Set font weight */
+  line-height: 100%; /* Set line height */
+  letter-spacing: -1.04px; /* Set letter spacing */
+  background-color: white; /* Set background color */
+}
+
+/* Styling for text */
+.text {
+  color: var(--Primaty-Grey-Dark, #757575); /* Set text color */
+  background-color: white; /* Set background color */
+}
+
+/* Styling for Subsection2 */
+.Subsection2 {
+  width: 470px; /* Set width to 470 pixels */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Add space between items */
+  margin-left: 120px; /* Add margin from the left */
+  background-color: white; /* Set background color */
+}
+
+/* Styling for picbox1 */
+.picbox1 {
+  height: 50px; /* Set height to 50 pixels */
+  margin-right: 100px; /* Add margin from the right */
+  background-color: white; /* Set background color */
+  position: relative;
+}
+
+/* Styling for img elements */
+.img {
+  background-color: var(
+    --Primaty-Pink-Light,
+    #f2d4dc
+  ); /* Set background color */
+  height: 50px; /* Set height to 50 pixels */
+  position: relative; /* Set position to relative */
+  right: 10px; /* Move element 90 pixels to the left */
+  border-radius: 10px; /* Set border radius */
+  align-items: center; /* Align items vertically */
+  z-index: 3; /* Set z-index */
+}
+
+/* Styling for btn elements */
+.btn {
+  width: 120px; /* Set width to 120 pixels */
+  height: 50px; /* Set height to 50 pixels */
+  border-radius: 40px; /* Set border radius */
+  border: none; /* Remove border */
+  background-color: var(
+    --Primaty-Pink-Light,
+    #f2d4dc
+  ); /* Set background color */
+  position: absolute; /* Set position to absolute */
+  right: -90px; /* Move element 410 pixels to the right */
+  z-index: 1; /* Set z-index */
+  color: var(--Primaty-Pink-Dark, #945069); /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 16px; /* Set font size to 16 pixels */
+  font-style: normal; /* Set font style to normal */
+  font-weight: 700; /* Set font weight */
+  line-height: 100%; /* Set line height */
+  letter-spacing: -0.64px; /* Set letter spacing */
+}
+
+/* Styling for picbox2 */
+.picbox2 {
+  height: 50px; /* Set height to 50 pixels */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Add space between items */
+  margin-left: 10px; /* Add margin from the left */
+  background-color: white; /* Set background color */
+  position: relative;
+}
+
+/* Styling for btn1 */
+.btn1 {
+  width: 140px; /* Set width to 140 pixels */
+  height: 50px; /* Set height to 50 pixels */
+  border-radius: 40px 40px; /* Set border radius for top-left and top-right corners */
+  border: none; /* Remove border */
+  position: absolute; /* Set position to absolute */
+  right: -10px; /* Move element 220 pixels to the right */
+  z-index: 1; /* Set z-index */
+  color: var(--Primaty-Cyan-Dark, #2b788b); /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 16px; /* Set font size to 16 pixels */
+  font-style: normal; /* Set font style to normal */
+  font-weight: 700; /* Set font weight */
+  line-height: 100%; /* Set line height */
+  letter-spacing: -0.64px; /* Set letter spacing */
+  background-color: #c3dce3; /* Set background color */
+}
+
+/* Styling for img1 */
+.img1 {
+  background-color: var(
+    --Primaty-Cyan-Light,
+    #c3dce3
+  ); /* Set background color */
+  height: 50px; /* Set height to 50 pixels */
+  position: relative; /* Set position to relative */
+  right: 100px; /* Move element 20 pixels to the right */
+  border-radius: 10px 10px; /* Set border radius for top-left and top-right corners */
+  align-items: center; /* Align items vertically */
+  z-index: 3; /* Set z-index */
+}
+
+/* Styling for picbox3 */
+.picbox3 {
+  width: 50px; /* Set width to 50 pixels */
+  background-color: var(
+    --Primaty-Cyan-Dark,
+    #2b788b
+  ); /* Set background color */
+  color: #000; /* Set text color */
+  display: flex; /* Use flexbox for layout */
+}
+
+/* Styling for svg */
+.svg {
+  background-color: #2b788b; /* Set background color */
+}
+
+/* Styling for Section2 */
+.Section2 {
+  background-color: #f6f5f4; /* Set background color */
+  width: 930px; /* Set width to 930 pixels */
+  height: 70px; /* Set height to 70 pixels */
+  display: flex; /* Use flexbox for layout */
+  margin-top: 30px; /* Add margin from the top */
+}
+
+/* Styling for bigbox1 */
+.bigbox1 {
+  display: flex; /* Use flexbox for layout */
+}
+
+/* Styling for box1 */
+.box1 {
+  margin-left: 9rem; /* Add margin from the left */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  border-bottom: 4px solid black; /* Add border at the bottom */
+}
+
+/* Styling for btn2 */
+.btn2 {
+  width: 65px; /* Set width to 65 pixels */
+  height: 30px; /* Set height to 30 pixels */
+  margin: 4px; /* Set margin */
+  border-radius: 4px; /* Set border radius */
+  color: var(--Primaty-Grey-Light, #f6f5f4); /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 12px; /* Set font size to 12 pixels */
+  font-style: normal; /* Set font style to normal */
+  font-weight: 600; /* Set font weight */
+  line-height: 140%; /* Set line height */
+  letter-spacing: -0.48px; /* Set letter spacing */
+  background-color: #639b6d; /* Set background color */
+}
+
+/* Styling for box2 */
+.box2 {
+  margin-left: 1rem; /* Add margin from the left */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+}
+
+/* Styling for btn3 */
+.btn3 {
+  width: 65px; /* Set width to 65 pixels */
+  height: 30px; /* Set height to 30 pixels */
+  margin: 4px; /* Set margin */
+  border-radius: 4px; /* Set border radius */
+  color: #639b6d; /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 12px; /* Set font size to 12 pixels */
+  font-style: normal; /* Set font style to normal */
+  font-weight: 600; /* Set font weight */
+  line-height: 140%; /* Set line height */
+  letter-spacing: -0.48px; /* Set letter spacing */
+  background-color: rgba(
+    99,
+    155,
+    109,
+    0.3
+  ); /* Set background color with alpha */
+}
+
+/* Styling for text1 */
+.text1 {
+  color: #757575; /* Set text color */
+}
+
+/* Styling for box3 */
+.box3 {
+  margin-left: 1rem; /* Add margin from the left */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+}
+
+/* Styling for btn4 */
+.btn4 {
+  width: 65px; /* Set width to 65 pixels */
+  height: 30px; /* Set height to 30 pixels */
+  margin: 4px; /* Set margin */
+  border-radius: 4px; /* Set border radius */
+  color: var(--Secondary-Yellow, #c4a24c); /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 12px; /* Set font size to 12 pixels */
+  font-style: normal; /* Set font style to normal */
+  font-weight: 600; /* Set font weight */
+  line-height: 140%; /* Set line height */
+  letter-spacing: -0.48px; /* Set letter spacing */
+  background-color: rgba(
+    196,
+    162,
+    76,
+    0.3
+  ); /* Set background color with alpha */
+}
+
+/* Styling for box4 */
+.box4 {
+  height: 80px; /* Set height to 80 pixels */
+  width: 360px; /* Set width to 360 pixels */
+  margin-left: 20px; /* Add margin from the left */
+}
+
+/* Styling for Section3 */
+.Section3 {
+  background-color: #f6f5f4; /* Set background color */
+  width: 74%; /* Set width to 74% of the container */
+  height: 900px; /* Set height to 900 pixels */
+  margin-right: 4rem; /* Add margin from the right */
+  margin-top: 20px; /* Add margin from the top */
+  position: absolute; /* Set position to absolute */
+}
+
+/* Styling for Container1 */
+.Container1 {
+  background-color: #f6f5f4; /* Set background color */
+  width: 926px; /* Set width to 926 pixels */
+  height: 350px; /* Set height to 350 pixels */
+  display: flex; /* Use flexbox for layout */
+  margin-top: 20px; /* Add margin from the top */
+}
+
+/* Styling for Frame1 */
+.Frame1 {
+  width: 337px; /* Set width to 337 pixels */
+  height: 336px; /* Set height to 336 pixels */
+  background-color: white;
+}
+
+/* Styling for p1 */
+.p1 {
+  border-radius: 12px 0px 0px 12px; /* Set border radius for the left side */
+  position: absolute; /* Set position to absolute */
+  z-index: 1; /* Set z-index */
+}
+
+/* Styling for innerbox */
+.innerbox {
+  background-color: rgba(0, 0, 0, 0.628); /* Set background color with alpha */
+  width: 65px; /* Set width to 65 pixels */
+  height: 100px; /* Set height to 100 pixels */
+  margin-left: 270px; /* Add margin from the left */
+  top: 70px; /* Position from the top */
+  border-radius: 10px 0px 0px 10px; /* Set border radius */
+  position: relative; /* Set position to relative */
+  z-index: 3; /* Set z-index */
+}
+
+/* Styling for Vectorbox1 */
+.Vectorbox1 {
+  background-color: rgba(0, 0, 0, 0.078); /* Set background color with alpha */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center align items horizontally */
+}
+
+/* Styling for Vectorbox1 p */
+.Vectorbox1 p {
+  background-color: rgba(0, 0, 0, 0.449); /* Set background color with alpha */
+  color: white; /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 16px; /* Set font size to 16 pixels */
+  font-style: normal; /* Set font style to normal */
+  font-weight: 600; /* Set font weight */
+  margin-left: 10px; /* Add margin from the left */
+}
+
+/* Styling for Frame2 */
+.Frame2 {
+  background-color: white; /* Set background color */
+  width: 550px; /* Set width to 550 pixels */
+  height: 336px; /* Set height to 336 pixels */
+}
+
+/* Styling for title */
+.title {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Add space between items */
+  margin-top: 30px; /* Add margin from the top */
+  margin-left: 30px; /* Add margin from the left */
+  background-color: white; /* Set background color */
+}
+
+/* Styling for titlebox1 */
+.titlebox1 {
+  display: flex; /* Use flexbox for layout */
+  background-color: white; /* Set background color */
+}
+
+/* Styling for titlebox1 h1 */
+.titlebox1 h1 {
+  background-color: white; /* Set background color */
+}
+
+/* Styling for f2h1 */
+.f2h1 {
+  margin-left: 10px; /* Add margin from the left */
+  background-color: white; /* Set background color */
+}
+
+/* Styling for f2h2 */
+.f2h2 {
+  margin-left: 10px; /* Add margin from the left */
+  color: #757575; /* Set text color */
+  background-color: white; /* Set background color */
+}
+
+/* Styling for subtitle */
+.subtitle {
+  margin-top: 10px; /* Add margin from the top */
+  margin-left: 30px; /* Add margin from the left */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  background-color: white; /* Set background color */
+}
+
+/* Styling for subtitlebtn */
+.subtitlebtn {
+  background-color: #cb5b43; /* Set background color */
+  border-radius: 4px; /* Set border radius */
+  border: none; /* Remove border */
+  color: var(--Primaty-Grey-Light, #f6f5f4); /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 14px; /* Set font size to 14 pixels */
+  font-style: normal; /* Set font style to normal */
+  font-weight: 600; /* Set font weight */
+  line-height: 140%; /* Set line height */
+  padding: 6px; /* Add padding */
+  margin-left: 30px; /* Add margin from the left */
+}
+
+/* Styling for subtitletext */
+.subtitletext {
+  background-color: white; /* Set background color */
+  margin-left: 30px; /* Add margin from the left */
+  margin-top: 20px; /* Add margin from the top */
+  color: #000; /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 15px; /* Set font size to 15 pixels */
+  font-style: normal; /* Set font style to normal */
+  font-weight: 400; /* Set font weight */
+}
+
+/* Styling for subtitletext1 */
+.subtitletext1 {
+  background-color: white; /* Set background color */
+  margin-left: 30px; /* Add margin from the left */
+  margin-top: 20px; /* Add margin from the top */
+  color: #000; /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 15px; /* Set font size to 15 pixels */
+  font-style: normal; /* Set font style to normal */
+  font-weight: 400; /* Set font weight */
+}
+
+/* Styling for subtitletext1 p */
+.subtitletext1 p {
+  background-color: white; /* Set background color */
+}
+
+/* Styling for subtitlebtnbox */
+.subtitlebtnbox {
+  background-color: white; /* Set background color */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center align items horizontally */
+  margin-left: 30px; /* Add margin from the left */
+  margin-top: 10px; /* Add margin from the top */
+}
+
+/* Styling for subtitlebtn1 */
+.subtitlebtn1 {
+  background-color: #639b6d; /* Set background color */
+  color: var(--Primaty-Grey-Light, #f6f5f4); /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 16px; /* Set font size to 16 pixels */
+  font-style: normal; /* Set font style to normal */
+  font-weight: 700; /* Set font weight */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  padding: 12px 20px; /* Add padding */
+  justify-content: center; /* Center align items horizontally */
+  align-items: center; /* Align items vertically */
+  border: none; /* Remove border */
+  border-radius: 100px; /* Set border radius */
+  margin-left: 30px; /* Add margin from the left */
+}
+.subtitlebtn1 a {
+  background-color: white;
+}
+
+/* Styling for subtitlebtn2 */
+.subtitlebtn2 {
+  background-color: rgba(
+    203,
+    91,
+    67,
+    0.3
+  ); /* Set background color with alpha */
+  color: #cb5b43; /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 16px; /* Set font size to 16 pixels */
+  font-style: normal; /* Set font style to normal */
+  font-weight: 700; /* Set font weight */
+  display: flex; /* Use flexbox for layout */
+  padding: 12px 20px; /* Add padding */
+  justify-content: center; /* Center align items horizontally */
+  border: none; /* Remove border */
+  border-radius: 100px; /* Set border radius */
+  margin-left: 30px; /* Add margin from the left */
+  margin: 10px; /* Add margin */
+}
+
+/* Styling for Container2 */
+.Container2 {
+  background-color: #f6f5f4; /* Set background color */
+  width: 926px; /* Set width to 926 pixels */
+  height: 350px; /* Set height to 350 pixels */
+  display: flex; /* Use flexbox for layout */
+}
+
+/* Styling for Frame3 */
+.Frame3 {
+  width: 337px; /* Set width to 337 pixels */
+  height: 336px; /* Set height to 336 pixels */
+}
+
+/* Styling for p2 */
+.p2 {
+  border-radius: 12px 0px 0px 12px; /* Set border radius for the left side */
+  position: absolute; /* Set position to absolute */
+  z-index: 1; /* Set z-index */
+}
+
+/* Styling for innerbox1 */
+.innerbox1 {
+  background-color: rgba(0, 0, 0, 0.628); /* Set background color with alpha */
+  width: 155px; /* Set width to 155 pixels */
+  height: 100px; /* Set height to 100 pixels */
+  margin-left: 180px; /* Add margin from the left */
+  top: 90px; /* Position from the top */
+  border-radius: 10px 0px 0px 10px; /* Set border radius */
+  position: relative; /* Set position to relative */
+  z-index: 3; /* Set z-index */
+}
+/* Styling for Vectorbox1 */
+.Vectorbox1 {
+  background-color: rgba(0, 0, 0, 0.078); /* Set background color with alpha */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center align items horizontally */
+}
+
+/* Styling for Vectorbox1 p */
+.Vectorbox1 p {
+  background-color: rgba(0, 0, 0, 0.449); /* Set background color with alpha */
+  color: white; /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 16px; /* Set font size to 16 pixels */
+  font-style: normal; /* Set font style to normal */
+  font-weight: 600; /* Set font weight */
+  margin-left: 10px; /* Add margin from the left */
+}
+
+/* Styling for Vectorbox2 */
+.Vectorbox2 {
+  background-color: rgba(0, 0, 0, 0.078); /* Set background color with alpha */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center align items horizontally */
+  margin-top: 20px; /* Add margin from the top */
+}
+
+/* Styling for Vectorbox2 p */
+.Vectorbox2 p {
+  background-color: rgba(0, 0, 0, 0.449); /* Set background color with alpha */
+  color: white; /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 16px; /* Set font size to 16 pixels */
+  font-style: normal; /* Set font style to normal */
+  font-weight: 600; /* Set font weight */
+  margin-left: 10px; /* Add margin from the left */
+}
+
+/* Styling for Vectorbox3 */
+.Vectorbox3 {
+  background-color: rgba(0, 0, 0, 0.078); /* Set background color with alpha */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center align items horizontally */
+  margin-top: 20px; /* Add margin from the top */
+}
+
+/* Styling for Vectorbox3 p */
+.Vectorbox3 p {
+  background-color: rgba(0, 0, 0, 0.449); /* Set background color with alpha */
+  color: white; /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 16px; /* Set font size to 16 pixels */
+  font-style: normal; /* Set font style to normal */
+  font-weight: 600; /* Set font weight */
+  margin-left: 10px; /* Add margin from the left */
+}
+
+/* Styling for Frame4 */
+.Frame4 {
+  background-color: white; /* Set background color */
+  width: 550px; /* Set width to 550 pixels */
+  height: 336px; /* Set height to 336 pixels */
+}
+
+/* Styling for title */
+.title {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Distribute items evenly */
+  margin-top: 30px; /* Add margin from the top */
+  margin-left: 30px; /* Add margin from the left */
+  background-color: white; /* Set background color */
+}
+
+/* Styling for titlebox1 */
+.titlebox1 {
+  display: flex; /* Use flexbox for layout */
+  background-color: white; /* Set background color */
+}
+
+/* Styling for titlebox1 h1 */
+.titlebox1 h1 {
+  background-color: white; /* Set background color */
+}
+
+/* Styling for f2h1 */
+.f2h1 {
+  margin-left: 10px; /* Add margin from the left */
+  background-color: white; /* Set background color */
+}
+
+/* Styling for f2h2 */
+.f2h2 {
+  margin-left: 10px; /* Add margin from the left */
+  color: #757575; /* Set text color */
+  background-color: white; /* Set background color */
+}
+/* Styling for subtitle */
+.subtitle {
+  margin-top: 10px; /* Add margin from the top */
+  margin-left: 30px; /* Add margin from the left */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  background-color: white; /* Set background color */
+}
+
+/* Styling for subtitlebtngreen */
+.subtitlebtngreen {
+  background-color: #639b6d; /* Set background color */
+  border-radius: 4px; /* Set border radius */
+  border: none; /* Remove border */
+  color: var(--Primaty-Grey-Light, #f6f5f4); /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 14px; /* Set font size */
+  font-style: normal; /* Set font style */
+  font-weight: 600; /* Set font weight */
+  line-height: 140%; /* Set line height */
+  padding: 6px; /* Add padding */
+  margin-left: 30px; /* Add margin from the left */
+}
+
+/* Styling for subtitletext */
+.subtitletext {
+  background-color: white; /* Set background color */
+  margin-left: 30px; /* Add margin from the left */
+  margin-top: 20px; /* Add margin from the top */
+  color: #000; /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 15px; /* Set font size */
+  font-style: normal; /* Set font style */
+  font-weight: 400; /* Set font weight */
+}
+
+/* Styling for subtitletext1 */
+.subtitletext1 {
+  background-color: white; /* Set background color */
+  margin-left: 30px; /* Add margin from the left */
+  margin-top: 20px; /* Add margin from the top */
+  color: #000; /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 15px; /* Set font size */
+  font-style: normal; /* Set font style */
+  font-weight: 400; /* Set font weight */
+}
+
+/* Styling for subtitlebtnbox */
+.subtitlebtnbox {
+  background-color: white; /* Set background color */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center align items horizontally */
+  margin-left: 30px; /* Add margin from the left */
+  margin-top: 10px; /* Add margin from the top */
+}
+
+/* Styling for subtitlebtn3 */
+.subtitlebtn3 {
+  background-color: rgba(
+    99,
+    155,
+    109,
+    0.3
+  ); /* Set background color with alpha */
+  color: var(--Primaty-Grey-Light, #f6f5f4); /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 16px; /* Set font size */
+  font-style: normal; /* Set font style */
+  font-weight: 700; /* Set font weight */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  padding: 12px 20px; /* Add padding */
+  justify-content: center; /* Center align items horizontally */
+  align-items: center; /* Align items vertically */
+  border: none; /* Remove border */
+  border-radius: 100px; /* Set border radius */
+  margin-left: 30px; /* Add margin from the left */
+}
+.subtitlebtn3 a {
+  background-color: white;
+}
+
+/* Styling for subtitlebtn4 */
+.subtitlebtn4 {
+  background-color: #cb5b43; /* Set background color */
+  color: white; /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 16px; /* Set font size */
+  font-style: normal; /* Set font style */
+  font-weight: 700; /* Set font weight */
+  display: flex; /* Use flexbox for layout */
+  padding: 12px 20px; /* Add padding */
+  justify-content: center; /* Center align items horizontally */
+  border: none; /* Remove border */
+  border-radius: 100px; /* Set border radius */
+  margin-left: 30px; /* Add margin from the left */
+  margin: 10px; /* Add margin */
+}
+.subtitlebtn4 a {
+  background-color: white;
+}
+/* Styling for Section4 */
+.Section4 {
+  width: 850px; /* Set width to 850 pixels */
+  height: 120px; /* Set height to 120 pixels */
+  background-color: #f6f5f4; /* Set background color */
+  display: inline-block; /* Display as inline block */
+  margin-left: 10px; /* Add margin from the left */
+}
+
+/* Styling for pagebtn */
+.pagebtn {
+  background-color: #f6f5f4; /* Set background color */
+  border: none; /* Remove border */
+  width: 850px; /* Set width to 850 pixels */
+  height: 70px; /* Set height to 70 pixels */
+  padding: 10px; /* Add padding */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  justify-content: space-evenly; /* Distribute items evenly */
+  margin-top: 30px; /* Add margin from the top */
+  margin-left: 10px; /* Add margin from the left */
+  color: var(--Primaty-Grey-Light, #f6f5f4); /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 16px; /* Set font size */
+  font-style: normal; /* Set font style */
+  font-weight: 700; /* Set font weight */
+  gap: 10px; /* Set gap between items */
+}
+
+/* Styling for pagebtn1 */
+.pagebtn1 {
+  display: flex; /* Use flexbox for layout */
+  padding: 14px 19px; /* Add padding */
+  justify-content: center; /* Center align items horizontally */
+  align-items: center; /* Align items vertically */
+  font-size: medium; /* Set font size */
+  font-weight: 600; /* Set font weight */
+  gap: 19px; /* Set gap between items */
+  border-radius: 100px; /* Set border radius */
+  border: 3px solid var(--Secondary-Cyan, #5996a5); /* Set border with color */
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .Main {
+    width: clamp(
+      600px,
+      90%,
+      700px
+    ); /* Set width between 400px and 700px, but not less than 90% of the viewport width */
+    height: clamp(
+      1000px,
+      70%,
+      2900px
+    ); /* Set height between 1000px and 2900px, but not less than 70% of the viewport height */
+    background-color: #f6f5f4; /* Set background color */
+  }
+
+  .Header {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Set flex direction to column */
+    width: clamp(
+      550px,
+      70%,
+      650px
+    ); /* Set width between 400px and 650px, but not less than 70% of the viewport width */
+    height: clamp(
+      300px,
+      60%,
+      470px
+    ); /* Set height between 300px and 470px, but not less than 60% of the viewport height */
+    margin-top: 40px; /* Add margin from the top */
+    margin-left: 40px; /* Add margin from the left */
+    margin-right: 20px; /* Add margin from the right */
+    background-color: #f6f5f4; /* Set background color */
+  }
+
+  .Section1 {
+    background-color: white; /* Set background color */
+    width: clamp(
+      600px,
+      70%,
+      600px
+    ); /* Set width between 400px and 600px, but not less than 70% of the viewport width */
+    height: clamp(
+      100px,
+      30%,
+      200px
+    ); /* Set height between 100px and 200px, but not less than 30% of the viewport height */
+    padding: 10px; /* Add padding */
+    margin: 10px; /* Add margin */
+    margin-left: 0px; /* Add margin from the left */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Set flex direction to column */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center align items horizontally */
+    border-radius: 30px; /* Set border radius */
+    gap: 10px; /* Set gap between items */
+  }
+
+  /* Styling for Subsection1 */
+  .Subsection1 {
+    width: 590px; /* Set width to 500 pixels */
+    height: 50px; /* Set height to 50 pixels */
+    font-weight: 500; /* Set font weight */
+    font-size: x-large; /* Set font size to x-large */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+    align-self: stretch; /* Stretch to fit container width */
+    margin-left: 0px; /* Add margin from the left */
+    background-color: white; /* Set background color */
+  }
+
+  /* Styling for Subsection2 */
+  .Subsection2 {
+    width: clamp(
+      550px,
+      70%,
+      500px
+    ); /* Set width between 300px and 500px, but not less than 70% of the viewport width */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+    margin-left: 0px; /* Add margin from the left */
+    justify-content: space-between; /* Distribute items evenly */
+    background-color: white; /* Set background color */
+  }
+
+  /* Styling for picbox1 */
+  .picbox1 {
+    width: clamp(
+      100px,
+      25%,
+      200px
+    ); /* Set width between 100px and 200px, but not less than 25% of the viewport width */
+    height: clamp(
+      30px,
+      5%,
+      60px
+    ); /* Set height between 30px and 60px, but not less than 5% of the viewport height */
+    margin-left: 0px; /* Add margin from the left */
+    background-color: white; /* Set background color */
+    position: relative;
+  }
+
+  /* Styling for img */
+  .img {
+    background-color: var(
+      --Primaty-Pink-Light,
+      #f2d4dc
+    ); /* Set background color */
+    width: clamp(
+      50px,
+      10%,
+      60px
+    ); /* Set width between 40px and 60px, but not less than 10% of the viewport width */
+    height: clamp(
+      40px,
+      10%,
+      60px
+    ); /* Set height between 40px and 60px, but not less than 10% of the viewport height */
+    position: relative; /* Set position to relative */
+    left: 10px; /* Position relative to the left */
+    border-radius: 10px; /* Set border radius */
+    align-items: center; /* Align items vertically */
+    z-index: 3; /* Set z-index */
+  }
+
+  /* Styling for btn */
+  .btn {
+    width: clamp(
+      120px,
+      25%,
+      160px
+    ); /* Set width between 120px and 160px, but not less than 25% of the viewport width */
+    height: clamp(
+      45px,
+      10%,
+      60px
+    ); /* Set height between 45px and 60px, but not less than 10% of the viewport height */
+    border-radius: 40px; /* Set border radius */
+    border: none; /* Remove border */
+    background-color: var(
+      --Primaty-Pink-Light,
+      #f2d4dc
+    ); /* Set background color */
+    position: absolute; /* Set position to absolute */
+    left: 40px; /* Position relative to the left */
+    z-index: 1; /* Set z-index */
+    color: var(--Primaty-Pink-Dark, #945069); /* Set text color */
+    font-family: Montserrat; /* Set font family */
+    font-size: 18px; /* Set font size */
+    font-style: normal; /* Set font style */
+    font-weight: 700; /* Set font weight */
+    line-height: 100%; /* Set line height */
+    letter-spacing: -0.64px; /* Set letter spacing */
+  }
+
+  /* Styling for picbox2 */
+  .picbox2 {
+    width: clamp(
+      100px,
+      25%,
+      200px
+    ); /* Set width between 100px and 200px, but not less than 25% of the viewport width */
+    height: clamp(
+      30px,
+      5%,
+      50px
+    ); /* Set height between 30px and 50px, but not less than 5% of the viewport height */
+    left: 320px; /* Position relative to the left */
+    background-color: white; /* Set background color */
+    position: relative;
+  }
+
+  /* Styling for img1 */
+  .img1 {
+    width: clamp(
+      40px,
+      10%,
+      60px
+    ); /* Set width between 40px and 60px, but not less than 10% of the viewport width */
+    height: clamp(
+      40px,
+      10%,
+      60px
+    ); /* Set height between 40px and 60px, but not less than 10% of the viewport height */
+    position: relative; /* Set position to relative */
+    right: 390px; /* Position relative to the right */
+    border-radius: 10px; /* Set border radius */
+    align-items: center; /* Align items vertically */
+    z-index: 3; /* Set z-index */
+  }
+
+  /* Styling for btn1 */
+  .btn1 {
+    width: clamp(
+      160px,
+      25%,
+      200px
+    ); /* Set width between 160px and 200px, but not less than 25% of the viewport width */
+    height: clamp(
+      45px,
+      10%,
+      60px
+    ); /* Set height between 45px and 60px, but not less than 10% of the viewport height */
+    border-radius: 40px; /* Set border radius */
+    border: none; /* Remove border */
+    position: absolute; /* Set position to absolute */
+    right: 360px; /* Position relative to the right */
+    bottom: 2px;
+    z-index: 1; /* Set z-index */
+    color: var(--Primaty-Cyan-Dark, #2b788b); /* Set text color */
+    font-family: Montserrat; /* Set font family */
+    font-size: 18px; /* Set font size */
+    font-style: normal; /* Set font style */
+    font-weight: 700; /* Set font weight */
+    line-height: 100%; /* Set line height */
+    letter-spacing: -0.64px; /* Set letter spacing */
+    background-color: #c3dce3; /* Set background color */
+  }
+
+  /* Styling for picbox3 */
+  .picbox3 {
+    background-color: white; /* Set background color */
+  }
+
+  /* Styling for svg */
+  .svg {
+    position: relative; /* Set position to relative */
+    right: 5px; /* Position relative to the right */
+  }
+
+  /* Styling for Section2 */
+  .Section2 {
+    background-color: #f6f5f4; /* Set background color */
+    width: clamp(
+      550px,
+      70%,
+      550px
+    ); /* Set width between 400px and 550px, but not less than 70% of the viewport width */
+    height: clamp(
+      150px,
+      30%,
+      230px
+    ); /* Set height between 150px and 230px, but not less than 30% of the viewport height */
+    padding: 20px; /* Add padding */
+    margin-left: 34px; /* Add margin from the left */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Set flex direction to column */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center align items horizontally */
+    gap: 10px; /* Set gap between items */
+  }
+
+  /* Styling for box1 */
+  .box1 {
+    margin-left: 10px; /* Add margin from the left */
+    align-items: center; /* Align items vertically */
+  }
+
+  /* Styling for bigbox1 */
+  .bigbox1 {
+    width: clamp(
+      400px,
+      50%,
+      500px
+    ); /* Set width between 300px and 500px, but not less than 50% of the viewport width */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Distribute items evenly */
+    margin-left: 10px; /* Add margin from the left */
+    margin-right: 30px; /* Add margin from the right */
+  }
+
+  /* Styling for box4 img */
+  .box4 img {
+    display: flex; /* Use flexbox for layout */
+    width: clamp(
+      300px,
+      50%,
+      450px
+    ); /* Set width between 300px and 450px, but not less than 50% of the viewport width */
+    height: clamp(
+      80px,
+      10%,
+      120px
+    ); /* Set height between 80px and 120px, but not less than 10% of the viewport height */
+    position: relative; /* Set position to relative */
+    right: 50px; /* Position relative to the right */
+  }
+
+  /* Styling for Section3 */
+  .Section3 {
+    background-color: white; /* Set background color */
+    width: clamp(
+      550px,
+      60%,
+      630px
+    ); /* Set width between 550px and 630px, but not less than 60% of the viewport width */
+    height: 100%; /* Set height to 100% */
+    display: block; /* Display as block */
+    position: relative; /* Set position to relative */
+    bottom: 0px; /* Set position relative to the bottom */
+    margin-top: 70px; /* Add margin from the top */
+  }
+
+  /* Styling for Container1 */
+  .Container1 {
+    width: clamp(
+      550px,
+      60%,
+      630px
+    ); /* Set width between 550px and 630px, but not less than 60% of the viewport width */
+    height: clamp(
+      500px,
+      60%,
+      750px
+    ); /* Set height between 500px and 750px, but not less than 60% of the viewport height */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Set flex direction to column */
+  }
+
+  /* Styling for Frame1 */
+  .Frame1 {
+    width: clamp(
+      550px,
+      60%,
+      630px
+    ); /* Set width between 550px and 630px, but not less than 60% of the viewport width */
+    display: flex; /* Use flexbox for layout */
+  }
+
+  /* Styling for p1 */
+  .p1 {
+    width: clamp(
+      550px,
+      60%,
+      630px
+    ); /* Set width between 550px and 630px, but not less than 60% of the viewport width */
+
+    margin-top: 0px;
+    display: block; /* Display as block */
+  }
+
+  /* Styling for Frame2 */
+  .Frame2 {
+    width: clamp(
+      550px,
+      60%,
+      630px
+    ); /* Set width between 550px and 630px, but not less than 60% of the viewport width */
+    height: clamp(
+      300px,
+      50%,
+      500px
+    ); /* Set height between 300px and 500px, but not less than 50% of the viewport height */
+    background-color: white; /* Set background color */
+    border-radius: 10px; /* Set border radius */
+  }
+
+  /* Styling for title */
+  .title {
+    background-color: white; /* Set background color */
+  }
+
+  /* Styling for subtitle */
+  .subtitle {
+    background-color: white; /* Set background color */
+  }
+  .subtitle h3 {
+    background-color: white; /* Set background color */
+  }
+
+  /* Styling for subtitletext */
+  .subtitletext {
+    background-color: white; /* Set background color */
+    margin-left: clamp(
+      20px,
+      5%,
+      30px
+    ); /* Add margin from the left between 20px and 30px, but not less than 5% of the viewport width */
+    margin-top: clamp(
+      10px,
+      5%,
+      20px
+    ); /* Add margin from the top between 10px and 20px, but not less than 5% of the viewport height */
+    color: #000; /* Set text color */
+    font-family: Montserrat; /* Set font family */
+    font-size: 15px; /* Set font size */
+    font-style: normal; /* Set font style */
+    font-weight: 400; /* Set font weight */
+  }
+
+  .subtitletext p {
+    background-color: white;
+  }
+
+  /* Styling for subtitletext1 */
+  .subtitletext1 {
+    background-color: white; /* Set background color */
+    margin-left: clamp(
+      20px,
+      5%,
+      30px
+    ); /* Add margin from the left between 20px and 30px, but not less than 5% of the viewport width */
+    margin-top: clamp(
+      10px,
+      5%,
+      20px
+    ); /* Add margin from the top between 10px and 20px, but not less than 5% of the viewport height */
+    color: #000; /* Set text color */
+    font-family: Montserrat; /* Set font family */
+    font-size: clamp(
+      12px,
+      2vw,
+      15px
+    ); /* Set font size between 12px and 15px, but not less than 2% of the viewport width */
+    font-style: normal; /* Set font style */
+    font-weight: 400; /* Set font weight */
+  }
+
+  /* Styling for f2h2 */
+  .f2h2 {
+    margin-left: clamp(
+      5px,
+      1%,
+      10px
+    ); /* Add margin from the left between 5px and 10px, but not less than 1% of the viewport width */
+    color: #757575; /* Set text color */
+    font-size: clamp(
+      24px,
+      3vw,
+      30px
+    ); /* Set font size between 24px and 30px, but not less than 3% of the viewport width */
+  }
+
+  /* Styling for subtitlebtnbox */
+  .subtitlebtnbox {
+    background-color: white; /* Set background color */
+    height: clamp(
+      100px,
+      20%,
+      140px
+    ); /* Set height between 100px and 140px, but not less than 20% of the viewport height */
+    display: block; /* Display as block */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center align items horizontally */
+    margin-left: 30px; /* Add margin from the left */
+    margin: 30px; /* Add margin */
+    padding: 20px; /* Add padding */
+  }
+
+  /* Styling for Container2 */
+  .Container2 {
+    width: clamp(
+      550px,
+      60%,
+      630px
+    ); /* Set width between 550px and 630px, but not less than 60% of the viewport width */
+    height: clamp(
+      520px,
+      60%,
+      750px
+    ); /* Set height between 500px and 750px, but not less than 60% of the viewport height */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Set flex direction to column */
+  }
+
+  /* Styling for Frame3 */
+  .Frame3 {
+    width: clamp(
+      550px,
+      60%,
+      630px
+    ); /* Set width between 550px and 630px, but not less than 60% of the viewport width */
+    display: flex; /* Use flexbox for layout */
+  }
+
+  /* Styling for p2 */
+  .p2 {
+    width: clamp(
+      550px,
+      60%,
+      600px
+    ); /* Set width between 550px and 600px, but not less than 60% of the viewport width */
+  }
+
+  /* Styling for Frame4 */
+  .Frame4 {
+    width: clamp(
+      550px,
+      60%,
+      630px
+    ); /* Set width between 550px and 630px, but not less than 60% of the viewport width */
+    height: clamp(
+      300px,
+      60%,
+      500px
+    ); /* Set height between 300px and 500px, but not less than 60% of the viewport height */
+    background-color: white; /* Set background color */
+    border-radius: 10px; /* Set border radius */
+  }
+
+  /* Styling for Section4 */
+  .Section4 {
+    width: clamp(
+      560px,
+      60%,
+      450px
+    ); /* Set width between 300px and 450px, but not less than 60% of the viewport width */
+    height: clamp(
+      80px,
+      60%,
+      120px
+    ); /* Set height between 80px and 120px, but not less than 60% of the viewport height */
+    background-color: #f6f5f4; /* Set background color */
+    display: inline-block; /* Display as inline block */
+    flex-direction: column; /* Set flex direction to column */
+    margin-left: 0px; /* Add margin from the left */
+  }
+
+  .pagebtn {
+    background-color: #f6f5f4; /* Background color */
+    border: none; /* No border */
+    width: clamp(
+      300px,
+      50%,
+      350px
+    ); /* Width of the button between 300px and 350px, but not less than 50% of the viewport width */
+    height: clamp(
+      50px,
+      10%,
+      70px
+    ); /* Height of the button between 50px and 70px, but not less than 10% of the viewport height */
+    padding: 10px; /* Padding inside the button */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Distribute space evenly between items */
+    margin-top: 30px; /* Margin on top */
+    margin-left: 0px; /* Margin on left */
+    color: var(--Primaty-Grey-Light, #f6f5f4); /* Text color */
+    font-family: Montserrat; /* Font family */
+    font-size: 16px; /* Font size */
+    font-style: normal; /* Font style */
+    font-weight: 700; /* Font weight */
+    gap: 10px; /* Spacing between items */
+  }
+
+  .pagebtn1 {
+    display: flex; /* Use flexbox for layout */
+    padding: clamp(10px, 1.5%, 14px) clamp(14px, 2%, 19px); /* Padding inside the button */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Align items vertically */
+    font-size: medium; /* Font size */
+    font-weight: 600; /* Font weight */
+    gap: 19px; /* Spacing between items */
+    border-radius: 100px; /* Rounded border */
+    border: 3px solid var(--Secondary-Cyan, #5996a5); /* Border style */
+  }
+}

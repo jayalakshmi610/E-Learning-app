@@ -1,0 +1,241 @@
+/* Styling for the container */
+.container {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange children in a column */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  width: 100vw; /* Full width of the viewport */
+  padding: 0rem 12rem; /* Padding around the container */
+  height: 550px; /* Set height */
+  background-color: white; /* Background color */
+}
+
+/* Styling for the main section */
+.main {
+  width: 100%; /* Full width */
+  height: 480px; /* Set height */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space evenly between children */
+  background-color: white; /* Background color */
+}
+
+/* Styling for section1 */
+.section1 {
+  width: 420px; /* Set width */
+  height: 470px; /* Set height */
+  display: inline-block; /* Display as inline block */
+  background-color: white; /* Background color */
+}
+
+/* Styling for section2 */
+.section2 {
+  width: 450px; /* Set width */
+  height: 460px; /* Set height */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange children in a column */
+  align-items: center; /* Center items horizontally */
+  margin-top: 10px; /* Set top margin */
+  margin-right: 10px; /* Set right margin */
+  background-color: white; /* Background color */
+}
+
+/* Styling for box1 */
+.box1 {
+  color: var(--Primaty-Black, #000); /* Set text color */
+  font-family: "Dela Gothic One"; /* Set font family */
+  font-size: 45px; /* Set font size */
+  font-style: normal; /* Set font style */
+  font-weight: 400; /* Set font weight */
+  line-height: 100%; /* Set line height */
+  letter-spacing: -1.92px; /* Set letter spacing */
+  margin-top: 30px; /* Set top margin */
+  background-color: white; /* Background color */
+}
+
+/* Styling for box2 */
+.box2 {
+  width: 450px; /* Set width */
+  color: var(--Primaty-Grey-Dark, #757575); /* Set text color */
+  font-family: Montserrat; /* Set font family */
+  font-size: 20px; /* Set font size */
+  font-style: normal; /* Set font style */
+  font-weight: 600; /* Set font weight */
+  line-height: 140%; /* Set line height */
+  letter-spacing: -0.72px; /* Set letter spacing */
+  margin-top: 30px; /* Set top margin */
+  background-color: white; /* Background color */
+}
+
+/* Styling for the footer */
+.footer {
+  display: flex; /* Use flexbox for layout */
+  background-color: white; /* Background color */
+}
+
+/* Styling for section2_footer1 */
+.section2_footer1 {
+  width: 200px; /* Set width */
+  height: 190px; /* Set height */
+  margin-top: 20px; /* Set top margin */
+  display: flex; /* Use flexbox for layout */
+  background-color: white; /* Background color */
+}
+
+/* Styling for images */
+.img {
+  width: 420px; /* Set width */
+  height: 470px; /* Set height */
+}
+
+/* Styling for img1 */
+.img1 {
+  position: relative; /* Set position */
+  top: 5px; /* Move image down */
+  left: 20px; /* Move image right */
+  z-index: 3; /* Set z-index */
+}
+
+/* Styling for img2 */
+.img2 {
+  position: absolute; /* Set position */
+  display: flex; /* Use flexbox for layout */
+  z-index: 1; /* Set z-index */
+  margin-top: 40px; /* Set top margin */
+}
+
+/* Styling for section2_footer2 */
+.section2_footer2 {
+  width: 200px; /* Set width */
+  height: 190px; /* Set height */
+  display: inline-block; /* Display as inline block */
+  flex-direction: column; /* Arrange children in a column */
+  margin-top: 20px; /* Set top margin */
+  background-color: white; /* Background color */
+}
+
+/* Styling for img3 */
+.img3 {
+  position: relative; /* Set position */
+  top: 9px; /* Move image down */
+  left: 20px; /* Move image right */
+  z-index: 3; /* Set z-index */
+}
+
+/* Styling for img4 */
+.img4 {
+  position: relative; /* Set position */
+  display: flex; /* Use flexbox for layout */
+  bottom: 70px; /* Move image up */
+  z-index: 1; /* Set z-index */
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    width: 100vw; /* Full width of the viewport */
+    padding: 0px; /* Remove padding */
+    height: 1200px; /* Set height */
+    background-color: white; /* Background color */
+  }
+
+  .main {
+    display: block; /* Change display to block */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    height: 1100px; /* Set height */
+    background-color: white; /* Background color */
+  }
+
+  .section1 {
+    width: clamp(90vw, 90vw, 600px); /* Adjust min and max width */
+    height: clamp(200px, 50vh, 470px); /* Adjust min and max height */
+    display: block; /* Change display to block */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    margin: clamp(10px, 5vw, 40px); /* Adjust min and max margin */
+  }
+
+  .img {
+    width: 600px; /* Set width */
+    height: 470px; /* Set height */
+  }
+
+  .section2 {
+    width: clamp(300px, 90vw, 600px); /* Adjust min and max width */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items horizontally */
+    justify-content: space-around; /* Space evenly between children */
+    margin: clamp(10px, 5vw, 40px); /* Adjust min and max margin */
+    background-color: white; /* Background color */
+  }
+
+  .box1 {
+    font-size: clamp(25px, 8vw, 35px); /* Adjust min and max font size */
+    text-align: center; /* Center text horizontally */
+    padding: clamp(5px, 2vw, 10px); /* Adjust min and max padding */
+    background-color: white; /* Background color */
+  }
+
+  .box2 {
+    width: clamp(250px, 90vw, 500px); /* Adjust min and max width */
+    background-color: white; /* Background color */
+  }
+  .footer {
+    width: clamp(300px, 90vw, 600px); /* Adjust min and max width */
+    height: auto; /* Auto height */
+    background-color: white; /* Background color */
+  }
+  .section2_footer1 {
+    width: clamp(200px, 90vw, 300px); /* Adjust min and max width */
+    height: clamp(100px, 30vh, 190px); /* Adjust min and max height */
+    margin-top: clamp(10px, 5vw, 20px); /* Adjust min and max top margin */
+    display: flex; /* Use flexbox for layout */
+    background-color: white; /* Background color */
+  }
+
+  .img1 {
+    width: clamp(100px, 30vw, 200px); /* Adjust min and max width */
+    position: relative; /* Set position */
+    top: clamp(5px, 3vw, 15px); /* Adjust min and max top position */
+    left: clamp(10px, 6vw, 20px); /* Adjust min and max left position */
+    z-index: 3; /* Set z-index */
+  }
+
+  .img2 {
+    width: clamp(150px, 60vw, 250px); /* Adjust min and max width */
+    height: clamp(120px, 40vh, 240px); /* Adjust min and max height */
+    position: absolute; /* Set position */
+    display: flex; /* Use flexbox for layout */
+    z-index: 1; /* Set z-index */
+    margin-top: clamp(20px, 10vw, 40px); /* Adjust min and max top margin */
+  }
+
+  .section2_footer2 {
+    width: clamp(200px, 90vw, 300px); /* Adjust min and max width */
+    height: clamp(100px, 30vh, 190px); /* Adjust min and max height */
+    display: inline-block; /* Display as inline block */
+    flex-direction: column; /* Arrange children in a column */
+    margin-top: clamp(10px, 5vw, 20px); /* Adjust min and max top margin */
+    background-color: white; /* Background color */
+  }
+
+  .img3 {
+    width: clamp(80px, 30vw, 150px); /* Adjust min and max width */
+    position: relative; /* Set position */
+    top: clamp(5px, 3vw, 9px); /* Adjust min and max top position */
+    left: clamp(40px, 15vw, 65px); /* Adjust min and max left position */
+    z-index: 3; /* Set z-index */
+  }
+
+  .img4 {
+    width: clamp(150px, 50vw, 300px); /* Adjust min and max width */
+    height: clamp(100px, 25vh, 200px); /* Adjust min and max height */
+    position: relative; /* Set position */
+    display: flex; /* Use flexbox for layout */
+    bottom: clamp(40px, 15vw, 70px); /* Adjust min and max bottom position */
+    z-index: 1; /* Set z-index */
+  }
+}

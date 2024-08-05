@@ -1,0 +1,121 @@
+.main {
+  background-color: #f6f5f4;
+  width: 100%;
+  height: 100%;
+}
+.frame1 {
+  width: 850px;
+  height: 240px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12rem;
+  margin-top: 2rem;
+  border-radius: 14px;
+}
+.frame2 {
+  width: 850px;
+  height: 240px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12rem;
+  margin-top: 2rem;
+  border-radius: 14px;
+}
+.frame3 {
+  width: 850px;
+  height: 260px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12rem;
+  margin-top: 2rem;
+  border-radius: 14px;
+}
+.Section1 {
+  background-color: white;
+  display: flex;
+  width: 800px;
+  height: 200px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.Section2 {
+  background-color: white;
+  margin-top: 0rem;
+}
+.titlebox1 {
+  background-color: white;
+  width: 250px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.titlebox1 h1 {
+  background-color: white;
+}
+.subtitle {
+  width: 570px;
+  margin-top: 2rem;
+  background-color: white;
+}
+.subtitle p {
+  background-color: white;
+}
+.btn {
+  color: #fff;
+  height: 30px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.48px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 6px;
+  background-color: var(--Primaty-Cyan-Dark, #2b788b);
+}
+@media (max-width: 768px) {
+  .frame1,
+  .frame2,
+  .frame3 {
+    width: calc(100% - 4rem); /* Adjusted width */
+    margin-left: 2rem; /* Adjusted margin */
+  }
+
+  .frame1,
+  .frame2 {
+    height: 200px; /* Adjusted height */
+  }
+
+  .frame3 {
+    height: 260px; /* Adjusted height */
+  }
+
+  .Section1 {
+    width: calc(100% - 4rem); /* Adjusted width */
+    margin: 2rem 0; /* Adjusted margin */
+  }
+
+  .titlebox1 {
+    width: 100%; /* Adjusted width */
+  }
+
+  .subtitle {
+    width: calc(100% - 4rem); /* Adjusted width */
+    margin-top: 1rem; /* Adjusted margin */
+  }
+
+  .btn {
+    font-size: 14px; /* Adjusted font size */
+    height: 40px; /* Adjusted height */
+  }
+}

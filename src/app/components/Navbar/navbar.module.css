@@ -1,0 +1,571 @@
+/* Styling for the navbar */
+.navbar {
+  height: 5rem; /* Set the height of the navbar */
+  padding: 0rem 2rem; /* Add padding to the navbar */
+  width: 100%; /* Make the navbar span the full width */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Distribute items evenly along the horizontal axis */
+}
+
+/* Styling for the logo group within the navbar */
+.logo_group {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Distribute items evenly along the horizontal axis */
+  width: 900px; /* Set a specific width for the logo group */
+  margin-left: 12rem; /* Adjust left margin */
+}
+.logo .h1 {
+  color: #000; /* Set text color */
+  font-family: "Dela Gothic One"; /* Specify font family */
+  font: bold; /* Set font weight */
+  font-size: 20.861px; /* Set font size */
+  font-style: normal;
+  font-weight: 600; /* Set font weight */
+  line-height: 100%; /* Set line height */
+  letter-spacing: -0.417px; /* Adjust letter spacing */
+}
+
+/* Styling for the list within the navbar */
+.list {
+  display: flex; /* Use flexbox for layout */
+  align-items: left; /* Align items to the left */
+  justify-content: space-between; /* Distribute items evenly along the horizontal axis */
+  list-style: none; /* Remove default list styles */
+  margin-left: 3rem; /* Add left margin to the list */
+}
+
+/* Styling for list items within the navbar */
+.list li {
+  padding: 2px 20px; /* Add padding to list items */
+  font-family: "Montserrat", sans-serif; /* Set the font family for list items */
+  font-style: normal; /* Set normal font style */
+  font-weight: 600; /* Set font weight */
+  color: var(--Primaty-Grey-Dark); /* Set the text color */
+  letter-spacing: -0.64px; /* Adjust letter spacing */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: 300ms ease-in-out; /* Add a smooth transition effect */
+  margin-left: 20px; /* Add left margin */
+}
+
+/* Styling for list items on hover */
+.list li:hover {
+  color: black; /* Change text color on hover */
+}
+
+/* Styling for the gamedrop section */
+.gamedrop {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  position: relative; /* Set position to relative */
+  color: #333; /* Set text color */
+  text-decoration: none; /* Remove underline from text */
+}
+/* Style the dropdown content (hidden by default) */
+.dropdown_content {
+  display: none; /* Hide dropdown content by default */
+  position: absolute; /* Set position to absolute */
+  top: 10%; /* Set distance from the top */
+  background-color: #f9f9f9; /* Set background color */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+  z-index: 1; /* Set z-index */
+  left: 65%; /* Set distance from the left */
+  border: 1px solid #ccc; /* Add border */
+  padding: 10px; /* Add padding */
+  margin-top: 5px; /* Add top margin */
+  list-style: none; /* Remove default list styles */
+}
+/* Styles for dropdown content items */
+.dropdown_content li {
+  display: block; /* Set display to block */
+  margin-bottom: 5px; /* Add bottom margin */
+  padding: 10px; /* Add padding */
+  margin: 10px; /* Add margin */
+  background-color: red; /* Set background color */
+}
+/* Style the links inside the dropdown */
+.dropdown_content li a {
+  color: black; /* Set text color */
+  display: block; /* Set display to block */
+  padding: 10px; /* Add padding */
+  margin: 0px; /* Add margin */
+  list-style: none; /* Remove default list styles */
+  background-color: yellow; /* Set background color */
+}
+/* Change color on hover */
+.dropdown_content a:hover {
+  background-color: grey; /* Change background color on hover */
+  display: block; /* Set display to block */
+}
+
+/* Show the dropdown menu when the button is clicked */
+.gamedrop:hover .dropdown_content li {
+  display: block; /* Set display to block on hover */
+}
+
+/* Styling for the btngroup section */
+.btngroup {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-around; /* Distribute items evenly along the horizontal axis */
+  width: 300px; /* Set a specific width for the btngroup */
+  margin-right: 8rem;
+}
+
+/* Styling for the usertag section */
+.usertag {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Distribute items evenly along the horizontal axis */
+  width: 80px; /* Set a specific width for the usertag */
+  height: 50px; /* Set a specific height for the usertag */
+}
+
+/* Styling for the avatar_tex within the usertag section */
+.avatar_tex {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  background: var(--Primaty-Cyan-Light); /* Set background color */
+  color: var(--Primaty-Cyan-Atc); /* Set text color */
+  font-weight: bold; /* Set font weight */
+  width: 40px; /* Set a specific width for the avatar_tex */
+  height: 40px; /* Set a specific height for the avatar_tex */
+  border-radius: 40px; /* Apply border-radius for rounded corners */
+}
+/* Styling for the mobile navbar */
+.mobilenavbar {
+  display: none; /* Hide mobile navbar by default */
+  width: 100%; /* Make the navbar span the full width */
+  height: 50px; /* Set the height of the mobile navbar */
+  justify-content: space-evenly; /* Distribute items evenly along the horizontal axis */
+}
+
+/* Styling for the description */
+.description {
+  width: 750px; /* Set width for description */
+}
+
+/* Styling for the hamburger menu */
+.hamburger {
+  background: none; /* Remove background */
+  border-radius: none; /* Remove border radius */
+  color: white; /* Set text color */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-around; /* Distribute items evenly along the horizontal axis */
+  border: none; /* Remove border */
+  transition: 900ms ease-in-out; /* Add transition effect */
+  cursor: pointer; /* Set cursor to pointer */
+}
+
+/* Change color of hamburger menu on hover */
+.hamburger:hover {
+  color: white; /* Change text color on hover */
+  background-color: black; /* Change background color on hover */
+}
+
+/* Styling for the sidebar */
+.sidebar {
+  width: 300px; /* Set width for the sidebar */
+  height: 100%; /* Set height for the sidebar */
+  background-color: burlywood; /* Set background color */
+  color: black; /* Set text color */
+  text-decoration: none; /* Remove text decoration */
+  position: absolute; /* Position sidebar absolutely */
+  right: -300px; /* Initially hide sidebar off-screen */
+  top: 0; /* Align sidebar to the top */
+  z-index: 1; /* Set z-index to ensure visibility */
+  display: none; /* Hide sidebar by default */
+  align-items: start; /* Align items to the start */
+  justify-content: center; /* Center items horizontally */
+  padding: 50px; /* Add padding to sidebar */
+  transition: 900ms ease-in-out; /* Add transition effect */
+}
+
+/* Styling for the open sidebar */
+.open {
+  width: 500px; /* Set width for the open sidebar */
+  background-color: #f2d4dc; /* Set background color */
+  color: black; /* Set text color */
+  text-decoration: none; /* Remove text decoration */
+  transition: 900ms ease-in-out; /* Add transition effect */
+  align-items: center; /* Align items vertically */
+  text-align: center; /* Align text center */
+  margin: 0px; /* Reset margin */
+  top: 0px; /* Align to the top */
+  padding: 20px; /* Add padding */
+  gap: 30px; /* Set gap between items */
+  left: 0px; /* Align to the left */
+}
+
+/* Styling for the list inside open sidebar */
+.open ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Set width to 100% */
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Reset padding */
+  margin: 20px 0; /* Set margin */
+  text-decoration: none; /* Remove text decoration */
+  font-style: none; /* Remove font style */
+}
+
+/* Styling for links inside open sidebar */
+.open a {
+  padding: 10px; /* Add padding to links */
+  cursor: pointer; /* Set cursor to pointer */
+  text-decoration: none; /* Remove text decoration */
+  font-size: larger; /* Set font size */
+  display: flex; /* Use flexbox for layout */
+}
+
+/* Change background color of links inside open sidebar on hover */
+.open a:hover {
+  background-color: #f2d4dc; /* Change background color on hover */
+  transition: 900ms; /* Add transition effect */
+  font-weight: bold; /* Set font weight */
+  text-decoration-line: none; /* Remove text decoration */
+  cursor: pointer; /* Set cursor to pointer */
+}
+
+/* Animation styles for hamburger menu */
+.hamburger:hover .open {
+  width: 60px; /* Adjust width on hover */
+}
+
+/* Styling for the close button inside open sidebar */
+.open .closebtn {
+  width: 30px; /* Set width for close button */
+  position: relative; /* Position relatively */
+  top: 0; /* Reset top position */
+  font-size: 16px; /* Set font size */
+  color: black; /* Set text color */
+}
+
+/* Media query for screen width up to 768px */
+@media (max-width: 768px) {
+  /* Hide regular navbar at smaller screen sizes */
+  .navbar {
+    display: none;
+    margin-left: clamp(
+      20px,
+      5vw,
+      30px
+    ); /* Adjusted using clamp for responsive margin-left */
+    margin-right: clamp(
+      20px,
+      5vw,
+      30px
+    ); /* Adjusted using clamp for responsive margin-right */
+  }
+
+  /* Styling for the mobile navbar */
+  .mobilenavbar {
+    display: block; /* Make the mobile navbar visible */
+    width: calc(100%-7rem); /* Set the width of the navbar */
+    height: 200px; /* Set the height of the navbar */
+    align-items: center; /* Center items vertically */
+    justify-content: space-around; /* Distribute items evenly along the horizontal axis */
+    margin-left: clamp(
+      10px,
+      5vw,
+      20px
+    ); /* Adjusted using clamp for responsive margin-left */
+    margin-right: clamp(
+      20px,
+      5vw,
+      30px
+    ); /* Adjusted using clamp for responsive margin-right */
+  }
+  .mobileheader {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+  }
+  /* Styling for frame1 */
+  .frame1 {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute items evenly along the horizontal axis */
+    width: clamp(300px, 90vw, 650px); /* Adjust min and max width */
+    margin-left: 20px; /* Add left margin */
+    margin-right: 30px; /* Add right margin */
+  }
+
+  /* Styling for frame2 */
+  .frame2 {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    border-radius: 11px; /* Set border radius */
+    background-color: #e3e3e3; /* Set background color */
+    height: 57px; /* Set height */
+    width: clamp(300px, 90vw, 650px); /* Adjust min and max width */
+    margin-left: clamp(
+      10px,
+      5vw,
+      20px
+    ); /* Adjusted using clamp for responsive margin-left */
+    margin-right: clamp(
+      20px,
+      5vw,
+      30px
+    ); /* Adjusted using clamp for responsive margin-right */
+  }
+
+  /* Styling for frame2 h4 */
+  .frame2 h4 {
+    font-size: 21px; /* Set font size */
+    font-family: Alef; /* Specify font family */
+    font-style: normal; /* Set font style */
+    font-weight: 400; /* Set font weight */
+    line-height: 10px; /* Set line height */
+  }
+
+  /* Styling for frame2 content */
+  .frame2content {
+    font-family: Alef; /* Specify font family */
+    font-size: 25px; /* Set font size */
+    font-style: normal; /* Set font style */
+    font-weight: 400; /* Set font weight */
+    line-height: 10px; /* Set line height */
+  }
+
+  /* Styling for frame2 head */
+  .frame2head {
+    display: flex; /* Use flexbox for layout */
+    justify-content: left; /* Align content to the left */
+    margin-left: 0px; /* Reset left margin */
+  }
+
+  /* Styling for frame2 body */
+  .frame2body {
+    background-color: #e3e3e3; /* Set background color */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    margin-left: clamp(
+      120px,
+      19vw,
+      190px
+    ); /* Adjusted using clamp for responsive margin-left */
+  }
+
+  /* Styling for lock */
+  .lock {
+    background-color: #e3e3e3; /* Set background color */
+  }
+
+  /* Styling for frame2 text */
+  .frame2text {
+    color: var(--Primaty-Black, #000); /* Set text color */
+    text-align: center; /* Align text center */
+    font-family: Montserrat; /* Specify font family */
+    font-size: 18px; /* Set font size */
+    font-style: normal; /* Set font style */
+    font-weight: 600; /* Set font weight */
+    line-height: 10px; /* Set line height */
+  }
+
+  /* Styling for refresh */
+  .refresh {
+    display: flex; /* Use flexbox for layout */
+    align-content: right; /* Align content to the right */
+    justify-content: right; /* Align content to the right */
+    margin-left: clamp(
+      90px,
+      30vw,
+      250px
+    ); /* Adjusted using clamp for responsive margin-left */
+    background-color: #e3e3e3; /* Set background color */
+  }
+
+  /* Styling for logo */
+  .logo {
+    font-size: clamp(
+      14px,
+      2vw,
+      18px
+    ); /* Adjusted using clamp for responsive font size */
+  }
+
+  /* Styling for description */
+  .description {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Distribute items evenly along the horizontal axis */
+    width: clamp(
+      650px,
+      70vw,
+      700px
+    ); /* Adjusted using clamp for responsive width */
+    height: 53px; /* Set height */
+    margin-left: clamp(
+      10px,
+      5vw,
+      20px
+    ); /* Adjusted using clamp for responsive margin-left */
+    margin-right: clamp(
+      20px,
+      5vw,
+      30px
+    ); /* Adjusted using clamp for responsive margin-right */
+    box-sizing: border-box; /* Include border and padding in the width and height */
+    border-top: 2px solid #e3e3e3; /* Set top border */
+    border-bottom: 2px solid #e3e3e3; /* Set bottom border */
+  }
+
+  /* Styling for hamburger */
+  .hamburger {
+    font-size: clamp(
+      40px,
+      10vw,
+      54px
+    ); /* Adjusted using clamp for responsive font size */
+    margin-left: clamp(
+      10px,
+      5vw,
+      20px
+    ); /* Adjusted using clamp for responsive margin-left */
+    border: none; /* Remove border */
+    outline-color: none; /* Remove outline color */
+    box-shadow: none; /* Remove box shadow */
+    border-radius: none; /* Remove border radius */
+  }
+
+  /* Styling for gamedrop section */
+  .gamedrop {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    width: clamp(
+      220px,
+      30vw,
+      300px
+    ); /* Adjusted using clamp for responsive width */
+  }
+
+  /* Styling for dropdown content */
+  .dropdown_content {
+    display: none; /* Hide dropdown content by default */
+    position: relative; /* Set position */
+    background-color: lightskyblue; /* Set background color */
+    margin: 0px; /* Reset margin */
+    padding: clamp(
+      5px,
+      1vw,
+      10px
+    ); /* Adjusted using clamp for responsive padding */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add box shadow */
+    z-index: 1; /* Set z-index */
+  }
+
+  /* Styling for links inside dropdown content */
+  .dropdown_content li a {
+    color: black; /* Set text color */
+    display: block; /* Display as block element */
+    padding: clamp(
+      10px,
+      2vw,
+      20px
+    ); /* Adjusted using clamp for responsive padding */
+    margin: clamp(
+      7px,
+      1vw,
+      14px
+    ); /* Adjusted using clamp for responsive margin */
+  }
+
+  /* Change background color of links inside dropdown content on hover */
+  .dropdown_content a:hover {
+    background-color: grey; /* Set background color on hover */
+    display: block;
+  }
+
+  /* Show the dropdown menu when the button is clicked */
+  .gamedrop:hover .dropdown_content {
+    display: block; /* Show dropdown content */
+    width: clamp(
+      300px,
+      40vw,
+      500px
+    ); /* Adjusted using clamp for responsive width */
+    position: absolute; /* Position absolutely */
+    top: clamp(
+      300px,
+      40vh,
+      400px
+    ); /* Adjusted using clamp for responsive distance from the top */
+  }
+
+  /* Styling for btngroup */
+  .btngroup {
+    width: clamp(
+      60px,
+      10vw,
+      80px
+    ); /* Adjusted using clamp for responsive width */
+    height: clamp(
+      24px,
+      4vw,
+      32px
+    ); /* Adjusted using clamp for responsive height */
+    display: flex; /* Use flexbox for layout */
+    padding: clamp(
+      5px,
+      1vw,
+      10px
+    ); /* Adjusted using clamp for responsive padding */
+    justify-content: space-evenly; /* Distribute items evenly along the horizontal axis */
+  }
+
+  /* Styling for avatar text */
+  .avatar_text {
+    display: flex; /* Use flexbox for layout */
+    margin-left: clamp(
+      0px,
+      7vw,
+      90px
+    ); /* Adjusted using clamp for responsive margin-left */
+    padding: clamp(
+      8px,
+      2vw,
+      18px
+    ); /* Adjusted using clamp for responsive padding */
+    background: var(--Primaty-Cyan-Light); /* Set background color */
+    color: var(--Primaty-Cyan-Atc); /* Set text color */
+    font-weight: bold; /* Set font weight */
+    border-radius: 40px; /* Apply border radius for rounded corners */
+  }
+
+  /* Styling for usertag h4 */
+  .usertag_h4 {
+    width: clamp(
+      60px,
+      10vw,
+      80px
+    ); /* Adjusted using clamp for responsive width */
+    height: clamp(
+      32px,
+      5vw,
+      42px
+    ); /* Adjusted using clamp for responsive height */
+    font-size: clamp(
+      12px,
+      2vw,
+      16px
+    ); /* Adjusted using clamp for responsive font size */
+    margin-left: clamp(
+      10px,
+      5vw,
+      20px
+    ); /* Adjusted using clamp for responsive margin-left */
+    padding: clamp(
+      5px,
+      1vw,
+      10px
+    ); /* Adjusted using clamp for responsive padding */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+  }
+}
